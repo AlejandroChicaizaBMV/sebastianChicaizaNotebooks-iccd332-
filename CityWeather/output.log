@@ -1,0 +1,558 @@
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+Traceback (most recent call last):
+  File "/home/alejandro-epn/CityWeather/main.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+Traceback (most recent call last):
+  File "/home/alejandro-epn/CityWeather/main.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+Traceback (most recent call last):
+  File "/home/alejandro-epn/CityWeather/main.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 03:45:01', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 1.18, 'Sensación térmica (°C)': -4.07, 'Temp. Mín (°C)': 0.01, 'Temp. Máx (°C)': 1.66, 'Presión (hPa)': 1030, 'Humedad (%)': 79, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 6.26, 'Viento Dirección (°)': 88, 'Viento Ráfagas (m/s)': 9.39, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 03:45:04', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 1.18, 'Sensación térmica (°C)': -4.07, 'Temp. Mín (°C)': 0.01, 'Temp. Máx (°C)': 1.66, 'Presión (hPa)': 1030, 'Humedad (%)': 79, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 6.26, 'Viento Dirección (°)': 88, 'Viento Ráfagas (m/s)': 9.39, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 03:50:39', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 1.15, 'Sensación térmica (°C)': -4.11, 'Temp. Mín (°C)': 0.01, 'Temp. Máx (°C)': 1.66, 'Presión (hPa)': 1030, 'Humedad (%)': 78, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 6.26, 'Viento Dirección (°)': 88, 'Viento Ráfagas (m/s)': 9.39, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 04:00:02', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.4, 'Temperatura (°C)': 1.22, 'Sensación térmica (°C)': -3.98, 'Temp. Mín (°C)': 0.05, 'Temp. Máx (°C)': 1.7, 'Presión (hPa)': 1030, 'Humedad (%)': 78, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 6.17, 'Viento Dirección (°)': 90, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:08'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 03:50:39', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 1.15, 'Sensación térmica (°C)': -4.11, 'Temp. Mín (°C)': 0.01, 'Temp. Máx (°C)': 1.66, 'Presión (hPa)': 1030, 'Humedad (%)': 78, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 6.26, 'Viento Dirección (°)': 88, 'Viento Ráfagas (m/s)': 9.39, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 04:00:02', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.4, 'Temperatura (°C)': 1.22, 'Sensación térmica (°C)': -3.98, 'Temp. Mín (°C)': 0.05, 'Temp. Máx (°C)': 1.7, 'Presión (hPa)': 1030, 'Humedad (%)': 78, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 6.17, 'Viento Dirección (°)': 90, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:08'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 04:10:15', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 1.06, 'Sensación térmica (°C)': -4.23, 'Temp. Mín (°C)': 0.01, 'Temp. Máx (°C)': 1.66, 'Presión (hPa)': 1030, 'Humedad (%)': 78, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 6.26, 'Viento Dirección (°)': 91, 'Viento Ráfagas (m/s)': 8.94, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 04:25:39', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 1.08, 'Sensación térmica (°C)': -3.91, 'Temp. Mín (°C)': 0.55, 'Temp. Máx (°C)': 1.66, 'Presión (hPa)': 1030, 'Humedad (%)': 77, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 5.66, 'Viento Dirección (°)': 90, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 04:25:39', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 1.08, 'Sensación térmica (°C)': -3.91, 'Temp. Mín (°C)': 0.55, 'Temp. Máx (°C)': 1.66, 'Presión (hPa)': 1030, 'Humedad (%)': 77, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 5.66, 'Viento Dirección (°)': 90, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 04:38:22', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 1.13, 'Sensación térmica (°C)': -3.85, 'Temp. Mín (°C)': 0.55, 'Temp. Máx (°C)': 1.66, 'Presión (hPa)': 1030, 'Humedad (%)': 76, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 5.66, 'Viento Dirección (°)': 90, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 04:45:01', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 1.11, 'Sensación térmica (°C)': -3.88, 'Temp. Mín (°C)': 0.55, 'Temp. Máx (°C)': 1.66, 'Presión (hPa)': 1030, 'Humedad (%)': 76, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 5.66, 'Viento Dirección (°)': 90, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 04:40:02', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.4, 'Temperatura (°C)': 1.16, 'Sensación térmica (°C)': -3.81, 'Temp. Mín (°C)': 0.59, 'Temp. Máx (°C)': 1.7, 'Presión (hPa)': 1030, 'Humedad (%)': 76, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 5.66, 'Viento Dirección (°)': 90, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:08'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 04:50:39', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 1.08, 'Sensación térmica (°C)': -3.99, 'Temp. Mín (°C)': 0.55, 'Temp. Máx (°C)': 1.66, 'Presión (hPa)': 1030, 'Humedad (%)': 76, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 5.81, 'Viento Dirección (°)': 99, 'Viento Ráfagas (m/s)': 8.49, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 04:55:56', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.4, 'Temperatura (°C)': 1.01, 'Sensación térmica (°C)': -4.29, 'Temp. Mín (°C)': 0.13, 'Temp. Máx (°C)': 1.7, 'Presión (hPa)': 1030, 'Humedad (%)': 73, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 6.26, 'Viento Dirección (°)': 93, 'Viento Ráfagas (m/s)': 8.49, 'Hora Atardecer': '16:05:08'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 04:55:56', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.4, 'Temperatura (°C)': 1.01, 'Sensación térmica (°C)': -4.29, 'Temp. Mín (°C)': 0.13, 'Temp. Máx (°C)': 1.7, 'Presión (hPa)': 1030, 'Humedad (%)': 73, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 6.26, 'Viento Dirección (°)': 93, 'Viento Ráfagas (m/s)': 8.49, 'Hora Atardecer': '16:05:08'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 05:10:01', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.4, 'Temperatura (°C)': 1.23, 'Sensación térmica (°C)': -3.72, 'Temp. Mín (°C)': 0.63, 'Temp. Máx (°C)': 1.7, 'Presión (hPa)': 1030, 'Humedad (%)': 76, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 5.66, 'Viento Dirección (°)': 90, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:08'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 05:09:01', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 1.19, 'Sensación térmica (°C)': -3.77, 'Temp. Mín (°C)': 0.59, 'Temp. Máx (°C)': 1.66, 'Presión (hPa)': 1030, 'Humedad (%)': 76, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 5.66, 'Viento Dirección (°)': 90, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 05:09:01', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 1.19, 'Sensación térmica (°C)': -3.77, 'Temp. Mín (°C)': 0.59, 'Temp. Máx (°C)': 1.66, 'Presión (hPa)': 1030, 'Humedad (%)': 76, 'Clima': 'overcast clouds', 'Nubosidad (%)': 100, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 5.66, 'Viento Dirección (°)': 90, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 12:12:26', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 5.09, 'Sensación térmica (°C)': 1.9, 'Temp. Mín (°C)': 4.07, 'Temp. Máx (°C)': 6.1, 'Presión (hPa)': 1029, 'Humedad (%)': 68, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.12, 'Viento Dirección (°)': 100, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 12:12:26', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 5.09, 'Sensación térmica (°C)': 1.9, 'Temp. Mín (°C)': 4.07, 'Temp. Máx (°C)': 6.1, 'Presión (hPa)': 1029, 'Humedad (%)': 68, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.12, 'Viento Dirección (°)': 100, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 12:12:26', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 5.09, 'Sensación térmica (°C)': 1.9, 'Temp. Mín (°C)': 4.07, 'Temp. Máx (°C)': 6.1, 'Presión (hPa)': 1029, 'Humedad (%)': 68, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.12, 'Viento Dirección (°)': 100, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 12:23:44', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 5.07, 'Sensación térmica (°C)': 1.88, 'Temp. Mín (°C)': 4.07, 'Temp. Máx (°C)': 5.6, 'Presión (hPa)': 1029, 'Humedad (%)': 67, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.12, 'Viento Dirección (°)': 100, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 12:35:00', 'Ciudad': 'Alt-Kölln', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 5.34, 'Sensación térmica (°C)': 2.02, 'Temp. Mín (°C)': 4.07, 'Temp. Máx (°C)': 6.1, 'Presión (hPa)': 1029, 'Humedad (%)': 67, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.47, 'Viento Dirección (°)': 93, 'Viento Ráfagas (m/s)': 7.6, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 12:40:01', 'Ciudad': 'Alt-Kölln', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 5.34, 'Sensación térmica (°C)': 2.02, 'Temp. Mín (°C)': 4.07, 'Temp. Máx (°C)': 6.1, 'Presión (hPa)': 1029, 'Humedad (%)': 67, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.47, 'Viento Dirección (°)': 93, 'Viento Ráfagas (m/s)': 7.6, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 12:40:01', 'Ciudad': 'Alt-Kölln', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 5.34, 'Sensación térmica (°C)': 2.02, 'Temp. Mín (°C)': 4.07, 'Temp. Máx (°C)': 6.1, 'Presión (hPa)': 1029, 'Humedad (%)': 67, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.47, 'Viento Dirección (°)': 93, 'Viento Ráfagas (m/s)': 7.6, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 12:40:01', 'Ciudad': 'Alt-Kölln', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 5.34, 'Sensación térmica (°C)': 2.02, 'Temp. Mín (°C)': 4.07, 'Temp. Máx (°C)': 6.1, 'Presión (hPa)': 1029, 'Humedad (%)': 67, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.47, 'Viento Dirección (°)': 93, 'Viento Ráfagas (m/s)': 7.6, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 12:55:01', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 5.25, 'Sensación térmica (°C)': 1.91, 'Temp. Mín (°C)': 4.43, 'Temp. Máx (°C)': 6.1, 'Presión (hPa)': 1029, 'Humedad (%)': 67, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.47, 'Viento Dirección (°)': 99, 'Viento Ráfagas (m/s)': 7.15, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 12:49:59', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.5167, 'Longitud': 13.4, 'Temperatura (°C)': 5.31, 'Sensación térmica (°C)': 1.99, 'Temp. Mín (°C)': 4.47, 'Temp. Máx (°C)': 6.15, 'Presión (hPa)': 1029, 'Humedad (%)': 67, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.47, 'Viento Dirección (°)': 99, 'Viento Ráfagas (m/s)': 7.15, 'Hora Atardecer': '16:05:09'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 13:03:52', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 5.44, 'Sensación térmica (°C)': 1.59, 'Temp. Mín (°C)': 4.47, 'Temp. Máx (°C)': 6.15, 'Presión (hPa)': 1029, 'Humedad (%)': 67, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 5.66, 'Viento Dirección (°)': 100, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 13:10:01', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.4, 'Temperatura (°C)': 5.49, 'Sensación térmica (°C)': 1.66, 'Temp. Mín (°C)': 4.51, 'Temp. Máx (°C)': 6.19, 'Presión (hPa)': 1029, 'Humedad (%)': 67, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 5.66, 'Viento Dirección (°)': 100, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:08'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 13:10:01', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.4, 'Temperatura (°C)': 5.49, 'Sensación térmica (°C)': 1.66, 'Temp. Mín (°C)': 4.51, 'Temp. Máx (°C)': 6.19, 'Presión (hPa)': 1029, 'Humedad (%)': 67, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 5.66, 'Viento Dirección (°)': 100, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:08'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 13:10:01', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.4, 'Temperatura (°C)': 5.49, 'Sensación térmica (°C)': 1.66, 'Temp. Mín (°C)': 4.51, 'Temp. Máx (°C)': 6.19, 'Presión (hPa)': 1029, 'Humedad (%)': 67, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 5.66, 'Viento Dirección (°)': 100, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:08'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 13:20:02', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.4, 'Temperatura (°C)': 5.57, 'Sensación térmica (°C)': 1.76, 'Temp. Mín (°C)': 4.51, 'Temp. Máx (°C)': 6.19, 'Presión (hPa)': 1029, 'Humedad (%)': 67, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 5.66, 'Viento Dirección (°)': 100, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:08'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 13:23:50', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 5.63, 'Sensación térmica (°C)': 1.83, 'Temp. Mín (°C)': 4.47, 'Temp. Máx (°C)': 6.15, 'Presión (hPa)': 1029, 'Humedad (%)': 67, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 5.66, 'Viento Dirección (°)': 100, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 13:30:39', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 5.55, 'Sensación térmica (°C)': 1.73, 'Temp. Mín (°C)': 4.47, 'Temp. Máx (°C)': 6.15, 'Presión (hPa)': 1029, 'Humedad (%)': 67, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 5.66, 'Viento Dirección (°)': 100, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 16:50:01', 'Ciudad': 'Alt-Kölln', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.4, 'Temperatura (°C)': 3.84, 'Sensación térmica (°C)': 0.42, 'Temp. Mín (°C)': 2.19, 'Temp. Máx (°C)': 4.57, 'Presión (hPa)': 1029, 'Humedad (%)': 70, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.02, 'Viento Dirección (°)': 83, 'Viento Ráfagas (m/s)': 6.26, 'Hora Atardecer': '16:05:08'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 16:59:58', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 3.72, 'Sensación térmica (°C)': 0.01, 'Temp. Mín (°C)': 1.61, 'Temp. Máx (°C)': 4.53, 'Presión (hPa)': 1029, 'Humedad (%)': 71, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.47, 'Viento Dirección (°)': 84, 'Viento Ráfagas (m/s)': 6.26, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 16:53:04', 'Ciudad': 'Alt-Kölln', 'País': 'DE', 'Latitud': 52.5167, 'Longitud': 13.4, 'Temperatura (°C)': 3.78, 'Sensación térmica (°C)': 0.35, 'Temp. Mín (°C)': 1.65, 'Temp. Máx (°C)': 4.58, 'Presión (hPa)': 1029, 'Humedad (%)': 71, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.02, 'Viento Dirección (°)': 83, 'Viento Ráfagas (m/s)': 6.26, 'Hora Atardecer': '16:05:09'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 17:00:02', 'Ciudad': 'Alt-Kölln', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.4, 'Temperatura (°C)': 3.75, 'Sensación térmica (°C)': 0.05, 'Temp. Mín (°C)': 1.64, 'Temp. Máx (°C)': 4.57, 'Presión (hPa)': 1029, 'Humedad (%)': 71, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.47, 'Viento Dirección (°)': 84, 'Viento Ráfagas (m/s)': 6.26, 'Hora Atardecer': '16:05:08'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 17:08:40', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 2.93, 'Sensación térmica (°C)': -0.42, 'Temp. Mín (°C)': 1.1, 'Temp. Máx (°C)': 3.93, 'Presión (hPa)': 1029, 'Humedad (%)': 76, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 3.6, 'Viento Dirección (°)': 80, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 17:20:02', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.4, 'Temperatura (°C)': 3.06, 'Sensación térmica (°C)': -0.54, 'Temp. Mín (°C)': 1.14, 'Temp. Máx (°C)': 4.02, 'Presión (hPa)': 1029, 'Humedad (%)': 71, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.02, 'Viento Dirección (°)': 82, 'Viento Ráfagas (m/s)': 5.36, 'Hora Atardecer': '16:05:08'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 17:24:37', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 2.87, 'Sensación térmica (°C)': -0.77, 'Temp. Mín (°C)': 1.05, 'Temp. Máx (°C)': 4.34, 'Presión (hPa)': 1029, 'Humedad (%)': 75, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.02, 'Viento Dirección (°)': 82, 'Viento Ráfagas (m/s)': 5.36, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 17:24:37', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 2.87, 'Sensación térmica (°C)': -0.77, 'Temp. Mín (°C)': 1.05, 'Temp. Máx (°C)': 4.34, 'Presión (hPa)': 1029, 'Humedad (%)': 75, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.02, 'Viento Dirección (°)': 82, 'Viento Ráfagas (m/s)': 5.36, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 17:24:37', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 2.87, 'Sensación térmica (°C)': -0.77, 'Temp. Mín (°C)': 1.05, 'Temp. Máx (°C)': 4.34, 'Presión (hPa)': 1029, 'Humedad (%)': 75, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.02, 'Viento Dirección (°)': 82, 'Viento Ráfagas (m/s)': 5.36, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 17:34:34', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 2.63, 'Sensación térmica (°C)': -0.79, 'Temp. Mín (°C)': 0.61, 'Temp. Máx (°C)': 3.88, 'Presión (hPa)': 1029, 'Humedad (%)': 77, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 3.6, 'Viento Dirección (°)': 70, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 17:45:03', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 2.64, 'Sensación térmica (°C)': -0.78, 'Temp. Mín (°C)': 0.5, 'Temp. Máx (°C)': 3.88, 'Presión (hPa)': 1029, 'Humedad (%)': 76, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 3.6, 'Viento Dirección (°)': 70, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 17:45:03', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 2.64, 'Sensación térmica (°C)': -0.78, 'Temp. Mín (°C)': 0.5, 'Temp. Máx (°C)': 3.88, 'Presión (hPa)': 1029, 'Humedad (%)': 76, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 3.6, 'Viento Dirección (°)': 70, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 17:45:03', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 2.64, 'Sensación térmica (°C)': -0.78, 'Temp. Mín (°C)': 0.5, 'Temp. Máx (°C)': 3.88, 'Presión (hPa)': 1029, 'Humedad (%)': 76, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 3.6, 'Viento Dirección (°)': 70, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 17:50:01', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.4, 'Temperatura (°C)': 2.69, 'Sensación térmica (°C)': -0.72, 'Temp. Mín (°C)': 0.53, 'Temp. Máx (°C)': 3.92, 'Presión (hPa)': 1029, 'Humedad (%)': 77, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 3.6, 'Viento Dirección (°)': 70, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:08'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 18:00:12', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 2.29, 'Sensación térmica (°C)': -1.2, 'Temp. Mín (°C)': -0.01, 'Temp. Máx (°C)': 3.88, 'Presión (hPa)': 1029, 'Humedad (%)': 78, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 3.6, 'Viento Dirección (°)': 70, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 18:00:12', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 2.29, 'Sensación térmica (°C)': -1.2, 'Temp. Mín (°C)': -0.01, 'Temp. Máx (°C)': 3.88, 'Presión (hPa)': 1029, 'Humedad (%)': 78, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 3.6, 'Viento Dirección (°)': 70, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 18:12:52', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 2.08, 'Sensación térmica (°C)': -1.46, 'Temp. Mín (°C)': -0.06, 'Temp. Máx (°C)': 3.37, 'Presión (hPa)': 1029, 'Humedad (%)': 79, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 3.6, 'Viento Dirección (°)': 70, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 18:11:05', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 2.08, 'Sensación térmica (°C)': -1.46, 'Temp. Mín (°C)': -0.06, 'Temp. Máx (°C)': 3.37, 'Presión (hPa)': 1029, 'Humedad (%)': 79, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 3.6, 'Viento Dirección (°)': 70, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 18:25:00', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 2.07, 'Sensación térmica (°C)': -1.75, 'Temp. Mín (°C)': -0.06, 'Temp. Máx (°C)': 3.42, 'Presión (hPa)': 1029, 'Humedad (%)': 75, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.02, 'Viento Dirección (°)': 75, 'Viento Ráfagas (m/s)': 4.92, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 18:25:00', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 2.07, 'Sensación térmica (°C)': -1.75, 'Temp. Mín (°C)': -0.06, 'Temp. Máx (°C)': 3.42, 'Presión (hPa)': 1029, 'Humedad (%)': 75, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.02, 'Viento Dirección (°)': 75, 'Viento Ráfagas (m/s)': 4.92, 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 18:35:02', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 1.94, 'Sensación térmica (°C)': -1.98, 'Temp. Mín (°C)': -0.06, 'Temp. Máx (°C)': 2.87, 'Presión (hPa)': 1029, 'Humedad (%)': 75, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.12, 'Viento Dirección (°)': 70, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 18:40:02', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 2.03, 'Sensación térmica (°C)': -1.87, 'Temp. Mín (°C)': -0.06, 'Temp. Máx (°C)': 3.42, 'Presión (hPa)': 1029, 'Humedad (%)': 76, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.12, 'Viento Dirección (°)': 70, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 18:35:02', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 1.94, 'Sensación térmica (°C)': -1.98, 'Temp. Mín (°C)': -0.06, 'Temp. Máx (°C)': 2.87, 'Presión (hPa)': 1029, 'Humedad (%)': 75, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.12, 'Viento Dirección (°)': 70, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 18:40:02', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 2.03, 'Sensación térmica (°C)': -1.87, 'Temp. Mín (°C)': -0.06, 'Temp. Máx (°C)': 3.42, 'Presión (hPa)': 1029, 'Humedad (%)': 76, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.12, 'Viento Dirección (°)': 70, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}
+./get-weather.sh: 1: !#/usr/bin/sh: not found
+Obteniendo el clima...
+/home/alejandro-epn/CityWeather/main.py:127: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  fecha = datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S') if timestamp else "N/A"
+/home/alejandro-epn/CityWeather/main.py:131: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  hora_atardecer = datetime.utcfromtimestamp(sunset_timestamp).strftime('%H:%M:%S') if sunset_timestamp else "N/A"
+===== Bienvenido a Clima-Berlín =====
+Datos agregados en clima-berlin-hoy.csv
+Datos obtenidos: {'Fecha': '2025-02-08 18:54:57', 'Ciudad': 'Mitte', 'País': 'DE', 'Latitud': 52.52, 'Longitud': 13.405, 'Temperatura (°C)': 1.78, 'Sensación térmica (°C)': -2.17, 'Temp. Mín (°C)': -0.06, 'Temp. Máx (°C)': 2.82, 'Presión (hPa)': 1029, 'Humedad (%)': 80, 'Clima': 'clear sky', 'Nubosidad (%)': 0, 'Visibilidad (m)': 10000, 'Viento Velocidad (m/s)': 4.12, 'Viento Dirección (°)': 70, 'Viento Ráfagas (m/s)': 'N/A', 'Hora Atardecer': '16:05:07'}

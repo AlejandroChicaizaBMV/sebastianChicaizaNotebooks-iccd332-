@@ -5,8 +5,8 @@
 #+options: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
 #+title: Proyecto ICCD332 Arquitectura de Computadores
 #+date: 2024-08-07
-#+author: Profesor: Lenin G. Falconí M.Sc.
-#+email: lenin.falconi@epn.edu.ec
+#+author: Sebastian Chicaiza, Tamara Benavidez
+#+email: sebastian.chicaiza@epn.edu.ec, tamara.benavidez@epn.edu.ec
 #+language: es
 #+select_tags: export
 #+exclude_tags: noexport
@@ -190,32 +190,116 @@ funcionales para facilitar su presentación y exposición.
 
 Lectura del API
 #+begin_src python :session :results output exports both
-def adder(a,b):
-    return a+b
-print(adder(5,3))
+# Coordenadas de Berlín
+BERLIN_LAT = 52.520008
+BERLIN_LONGITUDE = 13.404954
+API_KEY = "02b0db70fac81ab6e71999aa102b3b93"
+FILE_NAME = "clima-berlin-hoy.csv"
+
+print(BERLIN_LAT)
+print(BERLIN_LONGITUDE)
+print(API_KEY)
+print(FILE_NAME)
 #+end_src
 
-Puede tener que borrar los dos puntos para que el resultado aparezca
-en el HTML. En mi caso no fue necesario. Pruebe.
 #+RESULTS:
-: 8
+: 52.520008
+: 13.404954
+: 02b0db70fac81ab6e71999aa102b3b93
+: clima-berlin-hoy.csv
 
 Convertir /Json/ a /Diccionario/ de Python
 #+begin_src python :session :results output exports both
-print(adder(8,8))
+def get_weather(lat, lon, api):
+    """Obtiene los datos del clima de la API de OpenWeather."""
+    url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={api}&units=metric"
+    response = requests.get(url)
+    
+    if response.status_code == 200:
+        return response.json()  # Devuelve el JSON con los datos
+    else:
+        return {"cod": 404}  # Si hay un error, devuelve código 4
+
 #+end_src
 
 #+RESULTS:
-: 16
 
 
 Guardar el archivo csv
 #+begin_src python :session :results output exports both
-print(adder(8,-18))
+def write2csv(json_response, csv_filename):
+    """Guarda los datos del clima en un archivo CSV sin sobrescribir los datos anteriores."""
+    
+    # Verificar si el archivo ya existe para escribir los encabezados solo una vez
+    file_exists = False
+    try:
+        with open(csv_filename, "r", encoding="utf-8") as file:
+            file_exists = True
+    except FileNotFoundError:
+        pass  # Si el archivo no existe, lo creará después
+    
+    # Abrir en modo 'a' (append) para agregar nuevas filas sin sobrescribir
+    with open(csv_filename, mode='a', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        
+        # Si el archivo no existía, escribir encabezados
+        if not file_exists:
+            writer.writerow([
+                "dt", "coord_lon", "coord_lat", 
+                "weather_0_id", "weather_0_main", "weather_0_description", "weather_0_icon", 
+                "base", "main_temp", "main_feels_like", "main_temp_min", "main_temp_max", 
+                "main_pressure", "main_humidity", "main_sea_level", "main_grnd_level", 
+                "visibility", "wind_speed", "wind_deg", "wind_gust", "clouds_all", 
+                "sys_type", "sys_id", "sys_country", "sys_sunrise", "sys_sunset", "timezone", 
+                "id", "name", "cod"
+            ])
+        
+        # Extraer los datos de la respuesta JSON con .get() para evitar errores si faltan valores
+        writer.writerow([
+            datetime.now().strftime("%Y-%m-%d %H:%M:%S"),  # Marca de tiempo (Unix)
+            json_response.get("coord", {}).get("lon", ""),  # Longitud
+            json_response.get("coord", {}).get("lat", ""),  # Latitud
+            
+            json_response.get("weather", [{}])[0].get("id", ""),  # ID de la condición meteorológica
+            json_response.get("weather", [{}])[0].get("main", ""),  # Estado del clima principal (ej: Clouds)
+            json_response.get("weather", [{}])[0].get("description", ""),  # Descripción del clima
+            json_response.get("weather", [{}])[0].get("icon", ""),  # Icono del clima
+            
+            json_response.get("base", ""),  # Base de los datos meteorológicos
+            
+            json_response.get("main", {}).get("temp", ""),  # Temperatura actual
+            json_response.get("main", {}).get("feels_like", ""),  # Sensación térmica
+            json_response.get("main", {}).get("temp_min", ""),  # Temperatura mínima
+            json_response.get("main", {}).get("temp_max", ""),  # Temperatura máxima
+            json_response.get("main", {}).get("pressure", ""),  # Presión atmosférica
+            json_response.get("main", {}).get("humidity", ""),  # Humedad en porcentaje
+            json_response.get("main", {}).get("sea_level", ""),  # Presión a nivel del mar (si disponible)
+            json_response.get("main", {}).get("grnd_level", ""),  # Presión a nivel del suelo (si disponible)
+            
+            json_response.get("visibility", ""),  # Visibilidad en metros
+            
+            json_response.get("wind", {}).get("speed", ""),  # Velocidad del viento
+            json_response.get("wind", {}).get("deg", ""),  # Dirección del viento
+            json_response.get("wind", {}).get("gust", ""),  # Ráfagas de viento (si disponible)
+            
+            json_response.get("clouds", {}).get("all", ""),  # Porcentaje de nubosidad
+            
+            json_response.get("sys", {}).get("type", ""),  # Tipo de sistema meteorológico
+            json_response.get("sys", {}).get("id", ""),  # ID del sistema meteorológico
+            json_response.get("sys", {}).get("country", ""),  # Código del país
+            json_response.get("sys", {}).get("sunrise", ""),
+            json_response.get("sys", {}).get("sunset", ""),  # Hora de la puesta del sol
+            
+            json_response.get("timezone", ""),  # Zona horaria en segundos
+            json_response.get("id", ""),  # ID de la ciudad
+            json_response.get("name", ""),  # Nombre de la ciudad
+            json_response.get("cod", "")  # Código de estado de la API
+        ])
+    
+    print(f"Datos agregados en {csv_filename}")
 #+end_src
 
 #+RESULTS:
-: -10
 
 ** Script ejecutable sh
 Se coloca el contenido del script ejecutable. Recuerde que se debe
@@ -295,13 +379,13 @@ import os
 import pandas as pd
 
 # lectura del archivo csv obtenido
-df = pd.read_csv('/home/alejandro-epn/CityWeather/clima-berlin-hoy.csv')
+df = pd.read_csv('/home/alejandro-epn/CityWeather/clima-berlin-hoy-etl.csv')
 # se imprime la estructura del dataframe en forma de filas x columnas
 print(df.shape)
 #+end_src
 
 #+RESULTS:
-: (13, 29)
+: (24, 30)
 
 Resultado del número de filas y columnas leídos del archivo csv
 #+RESULTS:
@@ -313,18 +397,18 @@ table = [list(table1)]+[None]+table1.values.tolist()
 #+end_src
 
 #+RESULTS:
-| dt                  | coord_lon | coord_lat | weather_0_id | weather_0_main | weather_0_description | weather_0_icon | base     | main_temp | main_feels_like | main_temp_min | main_temp_max | main_pressure | main_humidity | main_sea_level | main_grnd_level | visibility | wind_speed | wind_deg | wind_gust | clouds_all | sys_type |  sys_id | sys_sunset | timezone |      id | sys_country | name  | cod |
-|---------------------+-----------+-----------+--------------+----------------+-----------------------+----------------+----------+-----------+-----------------+---------------+---------------+---------------+---------------+----------------+-----------------+------------+------------+----------+-----------+------------+----------+---------+------------+----------+---------+-------------+-------+-----|
-| 2025-02-07 16:06:48 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
-| 2025-02-07 16:06:32 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
-| 2025-02-07 16:06:38 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
-| 2025-02-07 16:06:29 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
-| 2025-02-07 16:06:35 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
-| 2025-02-07 16:06:52 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
-| 2025-02-07 16:06:35 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
-| 2025-02-07 16:06:56 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
-| 2025-02-07 16:06:40 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
-| 2025-02-07 16:06:42 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
+| dt                  | coord_lon | coord_lat | weather_0_id | weather_0_main | weather_0_description | weather_0_icon | base     | main_temp | main_feels_like | main_temp_min | main_temp_max | main_pressure | main_humidity | main_sea_level | main_grnd_level | visibility | wind_speed | wind_deg | wind_gust | clouds_all | sys_type |  sys_id | sys_country | sys_sunrise         | sys_sunset          | timezone |      id | name  | cod |
+|---------------------+-----------+-----------+--------------+----------------+-----------------------+----------------+----------+-----------+-----------------+---------------+---------------+---------------+---------------+----------------+-----------------+------------+------------+----------+-----------+------------+----------+---------+-------------+---------------------+---------------------+----------+---------+-------+-----|
+| 2025-02-07 23:45:15 |    13.405 |     52.52 |          804 | Clouds         | overcast clouds       | 04n            | stations |      1.11 |           -3.88 |          0.55 |          1.66 |          1030 |            76 |           1030 |            1024 |      10000 |       5.66 |       90 |       nan |        100 |        2 | 2009543 | DE          | 2025-02-08 01:36:06 | 2025-02-08 11:05:07 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-07 23:40:03 |    13.405 |     52.52 |          804 | Clouds         | overcast clouds       | 04n            | stations |      1.13 |           -3.85 |          0.55 |          1.66 |          1030 |            76 |           1030 |            1024 |      10000 |       5.66 |       90 |       nan |        100 |        2 | 2009543 | DE          | 2025-02-08 01:36:06 | 2025-02-08 11:05:07 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-07 23:45:17 |    13.405 |     52.52 |          804 | Clouds         | overcast clouds       | 04n            | stations |      1.11 |           -3.88 |          0.55 |          1.66 |          1030 |            76 |           1030 |            1024 |      10000 |       5.66 |       90 |       nan |        100 |        2 | 2009543 | DE          | 2025-02-08 01:36:06 | 2025-02-08 11:05:07 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-08 00:05:04 |      13.4 |     52.52 |          804 | Clouds         | overcast clouds       | 04n            | stations |      1.01 |           -4.29 |          0.13 |           1.7 |          1030 |            73 |           1030 |            1024 |      10000 |       6.26 |       93 |      8.49 |        100 |        2 | 2009543 | DE          | 2025-02-08 01:36:07 | 2025-02-08 11:05:08 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-08 07:15:03 |    13.405 |     52.52 |          800 | Clear          | clear sky             | 01d            | stations |      5.09 |             1.9 |          4.07 |           6.1 |          1029 |            68 |           1029 |            1023 |      10000 |       4.12 |      100 |       nan |          0 |        2 | 2009543 | DE          | 2025-02-08 01:36:06 | 2025-02-08 11:05:07 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-07 23:45:12 |    13.405 |     52.52 |          804 | Clouds         | overcast clouds       | 04n            | stations |      1.11 |           -3.88 |          0.55 |          1.66 |          1030 |            76 |           1030 |            1024 |      10000 |       5.66 |       90 |       nan |        100 |        2 | 2009543 | DE          | 2025-02-08 01:36:06 | 2025-02-08 11:05:07 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-07 23:55:02 |    13.405 |     52.52 |          804 | Clouds         | overcast clouds       | 04n            | stations |      1.08 |           -3.99 |          0.55 |          1.66 |          1030 |            76 |           1030 |            1024 |      10000 |       5.81 |       99 |      8.49 |        100 |        2 | 2009543 | DE          | 2025-02-08 01:36:06 | 2025-02-08 11:05:07 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-08 07:20:02 |    13.405 |     52.52 |          800 | Clear          | clear sky             | 01d            | stations |      5.09 |             1.9 |          4.07 |           6.1 |          1029 |            68 |           1029 |            1023 |      10000 |       4.12 |      100 |       nan |          0 |        2 | 2009543 | DE          | 2025-02-08 01:36:06 | 2025-02-08 11:05:07 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-08 00:10:03 |      13.4 |     52.52 |          804 | Clouds         | overcast clouds       | 04n            | stations |      1.23 |           -3.72 |          0.63 |           1.7 |          1030 |            76 |           1030 |            1024 |      10000 |       5.66 |       90 |       nan |        100 |        2 | 2009543 | DE          | 2025-02-08 01:36:07 | 2025-02-08 11:05:08 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-07 23:45:27 |    13.405 |     52.52 |          804 | Clouds         | overcast clouds       | 04n            | stations |      1.11 |           -3.88 |          0.55 |          1.66 |          1030 |            76 |           1030 |            1024 |      10000 |       5.66 |       90 |       nan |        100 |        2 | 2009543 | DE          | 2025-02-08 01:36:06 | 2025-02-08 11:05:07 |     3600 | 6545310 | Mitte | 200 |
 
 ** Gráfica Temperatura vs Tiempo
 Realizar una gráfica de la Temperatura en el tiempo.
@@ -368,6 +452,7 @@ cp -rfv ./images/* /home/alejandro-epn/CityWeather/weather-site/public/images
 
 #+RESULTS:
 | './images/humidity.png'    | -> | '/home/alejandro-epn/CityWeather/weather-site/public/images/humidity.png'    |
+| './images/temperature.pdf' | -> | '/home/alejandro-epn/CityWeather/weather-site/public/images/temperature.pdf' |
 | './images/temperature.png' | -> | '/home/alejandro-epn/CityWeather/weather-site/public/images/temperature.png' |
 
 **  Realice una gráfica de Humedad con respecto al tiempo
