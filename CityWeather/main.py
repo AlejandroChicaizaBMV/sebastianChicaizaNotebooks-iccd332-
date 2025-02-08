@@ -43,7 +43,7 @@ def write2csv(json_response, csv_filename):
                 "base", "main_temp", "main_feels_like", "main_temp_min", "main_temp_max", 
                 "main_pressure", "main_humidity", "main_sea_level", "main_grnd_level", 
                 "visibility", "wind_speed", "wind_deg", "wind_gust", "clouds_all", 
-                "sys_type", "sys_id", "sys_country", "sys_sunset", "timezone", 
+                "sys_type", "sys_id", "sys_country", "sys_sunrise", "sys_sunset", "timezone", 
                 "id", "name", "cod"
             ])
         
@@ -80,6 +80,7 @@ def write2csv(json_response, csv_filename):
             json_response.get("sys", {}).get("type", ""),  # Tipo de sistema meteorológico
             json_response.get("sys", {}).get("id", ""),  # ID del sistema meteorológico
             json_response.get("sys", {}).get("country", ""),  # Código del país
+            json_response.get("sys", {}).get("sunrise", ""),
             json_response.get("sys", {}).get("sunset", ""),  # Hora de la puesta del sol
             
             json_response.get("timezone", ""),  # Zona horaria en segundos

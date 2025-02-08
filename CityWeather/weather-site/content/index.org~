@@ -293,28 +293,15 @@ Presentar una muestra de 10 valores aleatorios de los datos obtenidos.
 #+begin_src python :session :results output exports both
 import os
 import pandas as pd
-# lectura del archivo csv obtenido
-df = pd.read_csv('/home/alejandro-epn/CityWeather/clima-berlin-hoy.csv')
-# se imprime la estructura del dataframe en forma de filas x columnas
-print(df.shape)
-print("Lorem Ipsum")
-#+end_src
-
-#+RESULTS:
-: Lorem Ipsum
-
-#+begin_src python :session :results output exports both
-import os
-import pandas as pd
 
 # lectura del archivo csv obtenido
 df = pd.read_csv('/home/alejandro-epn/CityWeather/clima-berlin-hoy.csv')
 # se imprime la estructura del dataframe en forma de filas x columnas
 print(df.shape)
-print("Lorem Ipsum")
 #+end_src
 
 #+RESULTS:
+: (13, 29)
 
 Resultado del número de filas y columnas leídos del archivo csv
 #+RESULTS:
@@ -326,18 +313,18 @@ table = [list(table1)]+[None]+table1.values.tolist()
 #+end_src
 
 #+RESULTS:
-| dt                  | coord_lon | coord_lat | weather_0_id | weather_0_main | weather_0_description | weather_0_icon | base     | main_temp | main_feels_like | main_temp_min | main_temp_max | main_pressure | main_humidity | main_sea_level | main_grnd_level | visibility | wind_speed | wind_deg | wind_gust | clouds_all | sys_type | sys_id | sys_country | sys_sunrise         | sys_sunset          | timezone |      id | name  | cod |
-|---------------------+-----------+-----------+--------------+----------------+-----------------------+----------------+----------+-----------+-----------------+---------------+---------------+---------------+---------------+----------------+-----------------+------------+------------+----------+-----------+------------+----------+--------+-------------+---------------------+---------------------+----------+---------+-------+-----|
-| 2024-08-03 21:57:57 |  -78.5249 |   -0.2299 |          804 | Clouds         | overcast clouds       | 04n            | stations |      8.53 |            8.53 |          8.53 |          8.53 |          1019 |            90 |           1019 |             724 |      10000 |       0.78 |       75 |      1.58 |         97 |        1 |   8555 | EC          | 2024-08-03 06:17:01 | 2024-08-03 18:23:24 |   -18000 | 3652462 | Quito | 200 |
-| 2024-08-04 10:26:16 |   -78.525 |   -0.2299 |          804 | Clouds         | overcast clouds       | 04d            | stations |     16.53 |           15.57 |         16.53 |         16.53 |          1016 |            51 |           1016 |             728 |      10000 |       1.11 |        6 |       2.1 |         90 |        1 |   8555 | EC          | 2024-08-04 06:16:56 | 2024-08-04 18:23:19 |   -18000 | 3652462 | Quito | 200 |
-| 2024-08-04 09:15:02 |  -78.5249 |   -0.2299 |          804 | Clouds         | overcast clouds       | 04d            | stations |     14.53 |           13.61 |         14.53 |         14.53 |          1018 |            60 |           1018 |             726 |      10000 |       0.73 |       90 |      1.81 |         86 |        1 |   8555 | EC          | 2024-08-04 06:16:56 | 2024-08-04 18:23:19 |   -18000 | 3652462 | Quito | 200 |
-| 2024-08-06 10:05:50 |  -78.5211 |   -0.2309 |          801 | Clouds         | few clouds            | 02d            | stations |     14.66 |           13.59 |         14.66 |         14.66 |          1017 |            54 |           1017 |             730 |      10000 |       1.01 |       25 |      1.74 |         15 |        1 |   8555 | EC          | 2024-08-06 06:16:44 | 2024-08-06 18:23:07 |   -18000 | 3652462 | Quito | 200 |
-| 2024-08-03 02:43:26 |  -78.5249 |   -0.2299 |          802 | Clouds         | scattered clouds      | 03n            | stations |      7.53 |            6.77 |          7.53 |          7.53 |          1019 |            81 |           1019 |             722 |      10000 |       1.55 |      171 |      1.97 |         44 |        1 |   8555 | EC          | 2024-08-03 06:17:01 | 2024-08-03 18:23:24 |   -18000 | 3652462 | Quito | 200 |
-| 2024-08-04 22:50:26 |  -78.5249 |   -0.2299 |          802 | Clouds         | scattered clouds      | 03n            | stations |      9.53 |            9.53 |          9.53 |          9.53 |          1020 |            93 |           1020 |             724 |      10000 |       1.18 |      117 |       1.4 |         38 |        1 |   8555 | EC          | 2024-08-04 06:16:56 | 2024-08-04 18:23:19 |   -18000 | 3652462 | Quito | 200 |
-| 2024-08-03 12:52:29 |  -78.5211 |   -0.2309 |          801 | Clouds         | few clouds            | 02d            | stations |     20.66 |           19.72 |         20.66 |         20.66 |          1012 |            36 |           1012 |             729 |      10000 |       4.05 |      341 |       5.7 |         17 |        1 |   8555 | EC          | 2024-08-03 06:17:00 | 2024-08-03 18:23:23 |   -18000 | 3652462 | Quito | 200 |
-| 2024-08-03 10:54:26 |  -78.5211 |   -0.2309 |          800 | Clear          | clear sky             | 01d            | stations |     15.66 |           14.12 |         15.66 |         15.66 |          1015 |            32 |           1015 |             730 |      10000 |       2.42 |      354 |       3.3 |         10 |        1 |   8555 | EC          | 2024-08-03 06:17:00 | 2024-08-03 18:23:23 |   -18000 | 3652462 | Quito | 200 |
-| 2024-08-02 23:51:42 |  -78.5211 |   -0.2309 |          803 | Clouds         | broken clouds         | 04n            | stations |      8.66 |            8.66 |          8.66 |          8.66 |          1020 |            88 |           1020 |             726 |       8882 |       1.17 |      146 |      1.32 |         68 |        1 |   8555 | EC          | 2024-08-02 06:17:04 | 2024-08-02 18:23:27 |   -18000 | 3652462 | Quito | 200 |
-| 2024-08-03 02:13:58 |  -78.5249 |   -0.2299 |          802 | Clouds         | scattered clouds      | 03n            | stations |      7.53 |            6.77 |          7.53 |          7.53 |          1019 |            85 |           1019 |             722 |      10000 |       1.55 |      160 |      1.87 |         26 |        1 |   8555 | EC          | 2024-08-03 06:17:01 | 2024-08-03 18:23:24 |   -18000 | 3652462 | Quito | 200 |
+| dt                  | coord_lon | coord_lat | weather_0_id | weather_0_main | weather_0_description | weather_0_icon | base     | main_temp | main_feels_like | main_temp_min | main_temp_max | main_pressure | main_humidity | main_sea_level | main_grnd_level | visibility | wind_speed | wind_deg | wind_gust | clouds_all | sys_type |  sys_id | sys_country | sys_sunset | timezone |      id | name  | cod |
+|---------------------+-----------+-----------+--------------+----------------+-----------------------+----------------+----------+-----------+-----------------+---------------+---------------+---------------+---------------+----------------+-----------------+------------+------------+----------+-----------+------------+----------+---------+-------------+------------+----------+---------+-------+-----|
+| 2025-02-07 16:06:29 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-07 16:06:42 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-07 16:06:32 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-07 16:06:35 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-07 16:06:35 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-07 16:06:46 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-07 16:06:52 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-07 16:06:48 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-07 16:06:40 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
+| 2025-02-07 16:06:56 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
 
 ** Gráfica Temperatura vs Tiempo
 Realizar una gráfica de la Temperatura en el tiempo.

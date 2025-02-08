@@ -240,7 +240,7 @@ which mamba
 #+end_src
 
 #+RESULTS:
-: /home/leningfe/miniforge3/condabin/mamba
+: /home/alejandro-epn/miniforge3/condabin/mamba
 
 Con esto el archivo ejecutable a de tener (adapte el código según las
 condiciones de su máquina):
@@ -313,18 +313,18 @@ table = [list(table1)]+[None]+table1.values.tolist()
 #+end_src
 
 #+RESULTS:
-| dt                  | coord_lon | coord_lat | weather_0_id | weather_0_main | weather_0_description | weather_0_icon | base     | main_temp | main_feels_like | main_temp_min | main_temp_max | main_pressure | main_humidity | main_sea_level | main_grnd_level | visibility | wind_speed | wind_deg | wind_gust | clouds_all | sys_type |  sys_id | sys_country | sys_sunset | timezone |      id | name  | cod |
-|---------------------+-----------+-----------+--------------+----------------+-----------------------+----------------+----------+-----------+-----------------+---------------+---------------+---------------+---------------+----------------+-----------------+------------+------------+----------+-----------+------------+----------+---------+-------------+------------+----------+---------+-------+-----|
-| 2025-02-07 16:06:29 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
-| 2025-02-07 16:06:42 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
-| 2025-02-07 16:06:32 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
-| 2025-02-07 16:06:35 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
-| 2025-02-07 16:06:35 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
-| 2025-02-07 16:06:46 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
-| 2025-02-07 16:06:52 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
-| 2025-02-07 16:06:48 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
-| 2025-02-07 16:06:40 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
-| 2025-02-07 16:06:56 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | DE          | 1738944193 |     3600 | 6545310 | Mitte | 200 |
+| dt                  | coord_lon | coord_lat | weather_0_id | weather_0_main | weather_0_description | weather_0_icon | base     | main_temp | main_feels_like | main_temp_min | main_temp_max | main_pressure | main_humidity | main_sea_level | main_grnd_level | visibility | wind_speed | wind_deg | wind_gust | clouds_all | sys_type |  sys_id | sys_sunset | timezone |      id | sys_country | name  | cod |
+|---------------------+-----------+-----------+--------------+----------------+-----------------------+----------------+----------+-----------+-----------------+---------------+---------------+---------------+---------------+----------------+-----------------+------------+------------+----------+-----------+------------+----------+---------+------------+----------+---------+-------------+-------+-----|
+| 2025-02-07 16:06:48 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
+| 2025-02-07 16:06:32 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
+| 2025-02-07 16:06:38 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
+| 2025-02-07 16:06:29 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
+| 2025-02-07 16:06:35 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
+| 2025-02-07 16:06:52 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
+| 2025-02-07 16:06:35 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
+| 2025-02-07 16:06:56 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
+| 2025-02-07 16:06:40 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
+| 2025-02-07 16:06:42 |      13.4 |     52.52 |          803 | Clouds         | broken clouds         | 04n            | stations |      2.62 |           -3.18 |          0.61 |          3.36 |          1032 |            77 |           1032 |            1026 |      10000 |       8.75 |      100 |       nan |         75 |        2 | 2011538 | 1738944193 |     3600 | 6545310 | DE          | Mitte | 200 |
 
 ** Gráfica Temperatura vs Tiempo
 Realizar una gráfica de la Temperatura en el tiempo.
@@ -363,14 +363,36 @@ carpeta /public/ es necesario copiar el archivo a la ubicación
 equivalente en ~/public/images~
 
 #+begin_src shell
-cp -rfv ./images/* /home/leningfe/PythonProjects/QuitoWeather/weather-site/public/images
+cp -rfv ./images/* /home/alejandro-epn/CityWeather/weather-site/public/images
 #+end_src
 
 #+RESULTS:
-| './images/plot.png'        | -> | '/home/leningfe/PythonProjects/QuitoWeather/weather-site/public/images/plot.png'        |
-| './images/temperature.png' | -> | '/home/leningfe/PythonProjects/QuitoWeather/weather-site/public/images/temperature.png' |
+| './images/humidity.png'    | -> | '/home/alejandro-epn/CityWeather/weather-site/public/images/humidity.png'    |
+| './images/temperature.png' | -> | '/home/alejandro-epn/CityWeather/weather-site/public/images/temperature.png' |
 
 **  Realice una gráfica de Humedad con respecto al tiempo
+#+begin_src python :results file :exports both :session
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+# Define el tamaño de la figura de salida
+fig = plt.figure(figsize=(8,6))
+plt.plot(df['dt'], df['main_humidity']) # dibuja las variables dt y temperatura
+# ajuste para presentacion de fechas en la imagen 
+plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=2))
+# plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))  
+plt.grid()
+# Titulo que obtiene el nombre de la ciudad del DataFrame
+plt.title(f' Main Humidity vs Time in {next(iter(set(df.name)))}')
+plt.xticks(rotation=40) # rotación de las etiquetas 40°
+fig.tight_layout()
+fname = './images/humidity.png'
+plt.savefig(fname)
+fname
+#+end_src
+
+#+RESULTS:
+[[file:./images/humidity.png]]
+
 **  *Opcional* Presente alguna gráfica de interés.
 
 * Referencias
